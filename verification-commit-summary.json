@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-10-15T10:44:41+00:00",
+  "sourceSummaryFile": "verification-summary.json",
+  "summary": {
+    "totalRepositories": 2,
+    "passedRepositories": 2,
+    "failedRepositories": 0
+  },
+  "repositories": [
+    {
+      "repository": "dataops",
+      "result": "PASS",
+      "totalBranches": 6,
+      "branches": [
+        "Nifi",
+        "OTEL-configuration",
+        "OTEL-main-branch",
+        "kafka-topic-config-sync",
+        "main",
+        "master"
+      ],
+      "passedCommits": 6,
+      "failedCommits": 0,
+      "failedCommitDetails": []
+    },
+    {
+      "repository": "k8clusterapi",
+      "result": "PASS",
+      "totalBranches": 2,
+      "branches": [
+        "main",
+        "test"
+      ],
+      "passedCommits": 2,
+      "failedCommits": 0,
+      "failedCommitDetails": []
+    }
+  ]
+}
